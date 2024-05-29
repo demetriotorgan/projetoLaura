@@ -1,0 +1,35 @@
+@import url(navDesktop.css);
+@import url(barraLateralDesktop.css);
+@import url(conteudoDesktop.css);
+
+@media (min-width:768px){
+    
+    .versaoMobile{
+        display: none;
+    }
+    
+    .versaoDesktop{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 60px 1fr;
+        grid-template-areas: 
+        "nav nav"
+        "barraLateral conteudo"
+        ;
+    }
+
+    .navegacaoDesktop{
+        grid-area: nav;
+
+    }
+
+    .barraLateral{
+        grid-area: barraLateral;
+    }
+
+    .conteudoDesktop{
+        grid-area: conteudo;
+    }
+}
+

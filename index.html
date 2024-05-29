@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>MobileFirst 03</title>
+</head>
+<body> 
+     <!--Versão Mobile-->       
+    <section class="versaoMobile">       
+        <nav class="navegacaoMobile">
+                <span class="user">
+                    <img src="img/user.png" alt="">
+                </span>
+                <span>
+                    <h3>Marta</h3>
+                    <p>Colégio Ary João Dresch</p>
+                </span>
+                
+                <!--Início do mecanismo de checkbox da sideBar-->
+                <input type="checkbox" id="sideBarAtiva">
+                <label for="sideBarAtiva" class="open-sidebar-button">
+                    <img src="img/list_40dp_FILL0_wght400_GRAD0_opsz40.svg" alt="">
+                        </label>
+                <!--Camada que possibilita o fechamento da sideBar tocando na tela sem necessárimente clicar no botão X de saida da sideBar-->
+                <label id="overlay" for="sideBarAtiva"></label>               
+                
+                <div class="links-container">
+                    <label for="sideBarAtiva" class="close-sidebar-button">
+                        <img src="img/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                    </label>
+                    <a class="home-link" href="#"><span class="material-symbols-outlined">
+                        home
+                        </span>Início</a>
+                    <a href="#"><span class="material-symbols-outlined">
+                        description
+                        </span>Sobre</a>   
+                    <a href="#"><span class="material-symbols-outlined">
+                        notifications
+                        </span>Avisos</a>
+                    <a href="#"><span class="material-symbols-outlined">
+                        person
+                        </span>Usuário</a>
+                </div>
+        </nav>            
+        <!--heroSection-->    
+        <div class="heroSectionMobile">
+            <div class="titulo">
+                <h1>Transporte
+                    <p>Escolar</p>
+                </h1>
+            </div>
+            <div class="figura">
+                <img src="img/amico.png" alt="">
+            </div>
+            <div class="tituloMenu">
+                <p>Escolha uma opção para inicar</p>
+            </div>
+            <div class="menu">
+                <div class="box">
+                    <img src="/img/mensagens.png" alt="">
+                    <span>Mensagens</span>
+                </div>
+                <div class="box">
+                    <img src="/img/motorista.png" alt="">
+                    <span>Motorista</span>
+                </div>
+                <div class="box">
+                    <img src="/img/rotas.png" alt="">
+                    <span>Rotas</span>
+                </div>
+                <div class="box">
+                    <img src="/img/escola.png" alt="">
+                    <span>Escola</span>
+                </div>
+            </div>
+        </div>
+        <!--Conteudo Mobile-->
+        <div class="conteudoMobile">
+            <h1>Recados
+                <p>Recentes</p>
+            </h1>
+            <div class="painelMensagens">
+                <div class="mensagem">
+                    <h3>Aviso: Ônibus quebrado!</h3>
+                    <p>Avisamos que nesta quinta-feira dia 12/04/2024
+                        o transporte escolar rural não estará passando
+                        devido ao fato do ônibus estar em manutenção sem
+                        previsão de retorno. Agradecemos a compreenção. Obrigado
+                    </p>
+                    <div class="barraIcones">
+                        <img src="/img/like.svg" alt="">
+                        <img src="/img/coracao.svg" alt="">                        
+                        <span>Secretaria do Transporte
+                            <span>12/04/2024</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="novaMensagem">
+                    
+                </div>
+                <div class="mensagem">
+                    <h3>Estrada Interditada</h3>
+                    <p>Devido as fortes chuvas dos ultimos dias,
+                        comunicamos que a rota dos alunos da 
+                        fazenda Brisanta está interditada e hoje o transporte
+                        escolar não atenderá esta rota. Agradecemos a compreenção. Obrigado
+                    </p>
+                    <div class="barraIcones">
+                        <img src="/img/like.svg" alt="">
+                        <img src="/img/coracao.svg" alt="">                        
+                        <span>Secretaria do Transporte
+                            <span>09/03/2024</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Versão Desktop-->
+    <section class="versaoDesktop">
+        <nav class="navegacaoDesktop">
+            <h1>Barra de Navegação Desktop</h1>
+        </nav>
+    <!--Barra Lateral-->
+        <div class="barraLateral">
+            <h1>Barra Lateral</h1>
+        </div>
+    <!--Conteudo Desktop-->
+        <div class="conteudoDesktop">
+            <h1>Conteúdo</h1>
+        </div>
+    </section>
+    </body>
+</body>
+</html>

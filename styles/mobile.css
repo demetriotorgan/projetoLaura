@@ -1,0 +1,34 @@
+@import url(navMobile.css);
+@import url(heroSectionMobile.css);
+@import url(conteudoMobile.css);
+@import url(../style.css);
+
+
+.versaoMobile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 300px 1fr;
+    grid-template-areas: 
+    "nav"
+    "heroSection"
+    "conteudo"
+    ;
+}
+
+.navegacaoMobile{
+    grid-area: nav;
+}
+
+.heroSectionMobile{
+    grid-area: heroSection;
+}
+
+.conteudoMobile{
+    grid-area: conteudo;
+}
+
+.versaoDesktop{
+    display: none;
+}
+
+

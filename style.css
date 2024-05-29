@@ -1,0 +1,13 @@
+@import url(styles/reset.css);
+@import url(styles/mobile.css);
+@import url(styles/desktop.css);
+@import url(styles/navMobile.css);
+
+:root{
+    --cor-1: #1B3065;
+    --cor-texto: #E9EDF8;
+    --texto-secundario: #526687;
+    --painel-mensagem: #E9EDF8;
+    --accent-color: #366DFB;
+    
+}

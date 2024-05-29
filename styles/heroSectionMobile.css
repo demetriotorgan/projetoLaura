@@ -1,0 +1,68 @@
+@import url(../style.css);
+
+.heroSectionMobile{
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-rows: 150px 20px 130px;
+    grid-template-areas: 
+    "titulo figura"
+    "tituloMenu tituloMenu"
+    "menu menu"
+    ;    
+}
+
+.titulo{
+    grid-area: titulo;
+    color: #000;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.titulo h1{
+    margin-top: 55px;
+    font-size: 42px;
+    line-height: 35px;
+}
+
+.titulo p{
+    font-size: 27px;
+}
+
+.figura{
+    grid-area: figura;
+}
+
+.figura img{
+    margin-top: 20px;
+    margin-left: 5px;   
+    width: 100%;
+    object-fit: fill;
+}
+
+.tituloMenu{
+    grid-area: tituloMenu;
+    color: var(--texto-secundario);
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
+
+.menu{
+    grid-area: menu;
+    display: flex;
+    width: 100%;        
+    
+}
+
+.menu .box{
+    justify-content: space-between;
+    text-align: center;
+    transform: scale(0.8);    
+}
+
+.menu .box span{
+    font-size: 18px;
+    color: var(--texto-secundario);
+}
+

@@ -1,0 +1,60 @@
+@import url(../style.css);
+
+.conteudoMobile h1{
+    font-size: 40px;
+    margin-left: 20px;
+    line-height: 30px;
+    
+}
+
+.conteudoMobile h1 p{
+ font-size: 16px;
+ font-weight: 100;
+ color: var(--texto-secundario);    
+  
+}
+
+.conteudoMobile .painelMensagens{    
+    margin: 25px;
+    padding-bottom: 10px;
+    background-color: var(--painel-mensagem);
+    border-radius: 10px;
+}
+.conteudoMobile .painelMensagens .mensagem h3{
+    margin-left: 30px;    
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+.conteudoMobile .painelMensagens .mensagem p{
+    margin-left: 30px;    
+    font-size: 14px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    color: var(--texto-secundario);
+    margin-right: 10px;
+}
+
+.conteudoMobile .painelMensagens .mensagem .barraIcones{
+    display: flex;            
+}
+
+.conteudoMobile .painelMensagens .mensagem .barraIcones img{
+    margin-left: 20px;
+}
+.conteudoMobile .painelMensagens .mensagem .barraIcones span{    
+    text-align: end;
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 10px;
+    color: var(--texto-secundario); 
+    margin-bottom: 10px;   
+}
+
+.novaMensagem{
+    background-color: #fff;
+    padding: 10px;
+    
+}
